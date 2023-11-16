@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+}
+
+#d1{ 
+    height: 80px;
+    width: 1350px;
+    background-color: rgba(247, 232, 22, 0.795);
+    background-image: url(img01.png);
+    background-repeat: no-repeat;
+    background-position: 1200px 10px;
+    background-size: 80px;
+    
+    border-style: solid ;
+    
+
+}
+#d2{
+    background-color: aliceblue;
+    height: 40px;
+    width: 600px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    border-style: solid;
+
+    
+}
+#d3{
+    height: 20000px;
+    width: 1350px;
+    background-color: rgba(255, 255, 0, 0.582);
+}

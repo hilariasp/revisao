@@ -1,0 +1,10 @@
+div{ 
+    height: 10000px;
+    width: 10000px;
+    background-image: url(img01.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 800px 600px;
+
+}
