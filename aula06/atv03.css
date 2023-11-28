@@ -1,0 +1,53 @@
+body,html{
+
+    background-color: orange;
+    font-family: arial;
+}
+
+.box{
+
+    display: grid;
+    background-color: black;
+    border: 5px solid black;
+    height: 700px;
+    grid-template-areas: "tituloimg titulo"
+                         "menue conteudo";
+    grid-template-rows: 100px auto;
+    grid-template-columns: 200px auto;
+}
+
+.tituloimg{
+
+    background-color: skyblue;
+    background-image: url(img01.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 50px 20px;
+    grid-area: tituloimg;
+
+}
+
+.titulo{
+
+    background-color: skyblue;
+    font-size: 50px;
+    grid-area: titulo;
+    padding: 20px 490px;
+}
+
+.menue{
+
+    background-color: rgb(171, 221, 241);
+    font-size: 20px;
+    grid-area: menue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.conteudo{
+
+    background-color: white;
+    font-size: 20px;
+    grid-area: conteudo;
+    padding: 20px 10px;
+}
