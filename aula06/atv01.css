@@ -1,0 +1,31 @@
+body,html{
+    background-color: aquamarine;
+}
+.box{
+    height: 600px;
+    display: grid;
+    grid-template-areas: "titulo titulo"
+                          "me md";
+    grid-template-rows: 100px auto;
+    grid-template-columns: 200px 1fr;
+}
+.titulo{
+    background-color: rgb(159, 4, 190);
+    grid-area: titulo;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+.md{
+    background-color: rgb(172, 108, 231);
+    text-align: center;
+    grid-area: md;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.me{
+    background-color: rgb(190, 17, 190);
+    grid-area: me;
+    font-size: 25px;
+    padding: 20px 70px;
+}

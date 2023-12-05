@@ -1,0 +1,33 @@
+body,html{
+    background-color: aquamarine;
+}
+.box{
+    height: 600px;
+    display: grid;
+    grid-template-areas:"ti ti ti" 
+                        "me md ro";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 200px 1fr 200px;
+}
+.ti{
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    grid-area: ti;
+}
+.me{
+    background-color: rgb(168, 96, 236);
+    font-size: 20px;
+    grid-area: me;
+}
+.md{
+    background-color:rgb(102, 34, 165);
+    font-size: 20px;
+    grid-area: md;
+}
+.ro{
+    background-color: rgb(119, 67, 167);
+    font-size: 20px;
+    grid-area: ro;
+}
