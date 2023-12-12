@@ -1,0 +1,113 @@
+.box {
+  height: 600px;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "menu main right"
+    "footer footer footer";
+  grid-auto-columns: 80px 1fr 200px;
+  grid-template-rows: 100px 1fr 90px;
+}
+.box .header {
+  background-color: rgb(8, 130, 134);
+  border: 3px solid black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  grid-area: header;
+}
+.box .menu {
+  background-color: rgb(5, 118, 122);
+  border: 3px solid black;
+  font-size: 20px;
+  text-align: center;
+  grid-area: menu;
+  display: grid;
+  grid-template-areas:
+    "b1"
+    "b2"
+    "b3";  
+    grid-template-rows: 135px 135px 135px;
+  }
+.box .main {
+  background-color: rgb(56, 168, 172);
+  border: 3px solid black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 80px;
+  grid-area: main;
+}
+.box .right {
+  background-color: rgb(5, 118, 122);
+  border: 3px solid black;
+  font-size: 15px;
+  text-align: center;
+  grid-area: right;
+  display: grid;
+  grid-template-areas: "l1 l2"
+  "l3 l4"
+  "l5 l6"
+  "l7 l8";
+  grid-template-columns: 98px 98px;
+  grid-template-rows: 100px 100px 100px 100px;
+}
+.box .footer {
+  background-color: rgb(8, 130, 134);
+  border: 3px solid black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
+  grid-area: footer;
+}
+.box .menu .box1{
+    grid-area: b1;
+    background-color: rgb(163, 95, 226);
+}
+.box .menu .box2{
+    grid-area: b2;
+    background-color: rgb(136, 66, 202);
+}
+.box .menu .box3{
+    grid-area: b3;
+    background-color: rgb(120, 13, 221);
+}
+.box .right .l1{
+    grid-area: l1;
+    background-color: rgb(163, 95, 226);
+}
+.box .right .l2{
+    grid-area: l2;
+    background-color: rgb(136, 66, 202);
+}
+.box .right .l3{
+    grid-area: l3;
+    background-color: rgb(120, 13, 221);
+}
+.box .right .l4{
+    grid-area: l4;
+    background-color: rgb(163, 95, 226);
+}
+.box .right .l5{
+    grid-area: l5;
+    background-color: rgb(136, 66, 202);
+}
+.box .right .l6{
+    grid-area: l6;
+    background-color: rgb(120, 13, 221);
+}
+.box .right .l7{
+    grid-area: l7;
+    background-color: rgb(163, 95, 226);
+}
+.box .right .l8{
+    grid-area: l8;
+    background-color: rgb(136, 66, 202);
+}
+.box .menu .box1 p{
+    background-color: blue;
+    border: 1px solid sandybrown;
+}
+.box .right .l6 p{
+    background-color: aqua;
+    border: 1px solid sandybrown
+}
