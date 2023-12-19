@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.box{
+    height: 600px;
+    display: grid;
+    grid-template-areas: "titulo titulo"
+    "cont menud"
+    "rodape rodape";
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 100px 1fr 90px;
+}
+.titulo{
+    grid-area: titulo;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
+.cont{
+    grid-area: cont;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+}
+.c1, .c2, .c3{ 
+    width: 100%;
+    height: 33.3%;
+    border: 1px solid black;
+    background-color: yellowgreen;
+}
+.c2{
+    background-color: rgb(170, 250, 11);
+}
+.menud{
+    grid-area: menud;
+    background-color: rgb(255, 234, 151);
+    border: 1px solid black;
+}
+.rodape{
+    grid-area: rodape;
+    background-color: rgb(141, 181, 255);
+    border: 1px solid black;
+    display: flex;
+
+}
+.p1,.p2,.p3{
+    width: 33.3%;
+    height: 100%;
+    border: 1px solid black;
+}
+.p2{
+    width: 70%;
+    background-color: cornflowerblue;
+}
